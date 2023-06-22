@@ -13,6 +13,8 @@ Badges are supported on a device by device basis. For example on a Android 11 Pi
 ### Issue
 [This issue](https://github.com/capawesome-team/capacitor-plugins/issues/3) describes the problem.
 
+A [similar issue](https://github.com/katzer/cordova-plugin-badge/issues/147) is described in `cordova-plugin-badge`
+
 ### Workaround
 A notification needs to be sent to the application to ensure that the badge will appear. To perform this with a local Notification install `@capacitor/local-notifications` then add:
 ```typescript
